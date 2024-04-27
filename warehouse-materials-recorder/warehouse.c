@@ -4,11 +4,11 @@
 
 void addItem(Item warehouse[], int *numItems) {
 	if(*numItems < MAX_ITEMS) {
-		printf("Enter name of item:\n");
+		printf("Enter name of item:");
 		scanf("%s",warehouse[*numItems].name);
-		printf("Enter quantity:\n");
+		printf("Enter quantity:");
 		scanf("%d",&warehouse[*numItems].quantity);
-		printf("Enter location:\n");
+		printf("Enter location:");
 		scanf("%s",warehouse[*numItems].location);
 		(*numItems)++;
 	}
